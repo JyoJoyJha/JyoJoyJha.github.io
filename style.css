@@ -25,16 +25,31 @@ header{
     z-index: 5;
 
 }
-nav ul li a{
+.left li a{
     text-decoration: none;
     color: rgb(179, 199, 250);
 }
-nav ul li{
+.right li a{
+    text-decoration: none;
+    color: rgb(179, 199, 250);
+}
+.right li{
     list-style: none;
     display: inline-block;
     padding-right: 25px;
 }
-nav ul{
+.left li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 25px;
+}
+.right{
+    display: inline-block;
+    padding:23px;
+    padding-left: 3vw;
+}
+.left{
+    display: inline-block;
     padding:23px;
 }
 
